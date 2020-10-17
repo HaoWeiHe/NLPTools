@@ -31,7 +31,7 @@ Pipeline NLP is a toolkit to demo the different between syntatic information and
 
 ## Requirements
 
-Pipleline NLp has been tested on Python 2.7.
+Pipleline NLP has been tested on Python 2.7.
 
 ### Python Dependencies
 
