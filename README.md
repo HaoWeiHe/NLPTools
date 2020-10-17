@@ -4,9 +4,9 @@ Pipeline NLP is a toolkit to demo the different between syntatic information and
 
 ## Functionality
 ```
-* SRL (Semantic Role Labeling)
-* POS Tagging (Part of Speech Tagging) 
-* Syntactic Parsing
+1) SRL (Semantic Role Labeling)
+2) POS Tagging (Part of Speech Tagging) 
+3) Syntactic Parsing
 ```
 
 ## What's New
