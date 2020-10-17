@@ -1,6 +1,6 @@
-# NLPTools
+# Pipeline NLP
 
-NLPTools is a toolkit to demo the different between syntatic information and semantic information.
+Pipeline NLP is a toolkit to demo the different between syntatic information and semantic information.
 
 ## What's New
 
