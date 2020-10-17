@@ -1,6 +1,6 @@
 # Pipeline NLP
 
-Pipeline NLP is a toolkit to demo the different between syntatic information and semantic information.
+Pipeline NLP is a toolkit to demo the different between syntatic information and semantic information. See attachment pdf to get more information.
 
 ## What's New
 
@@ -20,3 +20,45 @@ Pipeline NLP is a toolkit to demo the different between syntatic information and
 * Added `ner` function.
 * Added `srl` function.
 * Added `syntax` function.
+
+
+## Requirements
+
+Pipleline NLp has been tested on Python 2.7.
+
+### Python Dependencies
+
+* [practNLPTools](https://github.com/biplab-iitb/practNLPTools)
+
+## Basic Usages
+
+Import module as first step
+
+```
+>>> from core import *
+```
+
+Predict POS(part-of-speech) tagging from sentence:
+
+```
+>>> POSTagger.getInfo("how are you?")
+[('how', 'WRB'), ('are', 'VBP'), ('you', 'PRP'), ('?', '.')]
+```
+
+predict SRL(semantic role labeling) from sentence:
+
+```
+>>> SRL_Tagger.getInfo("I ate an apple")
+[{'A1': 'an apple', 'A0': 'I', 'V': 'ate'}]
+>>> SRL_Tagger.getInfo("An apple was eaten by me")
+[{'A1': 'An apple', 'A0': 'by me', 'V': 'eaten'}]
+```
+
+
+predict syntatic parsing tree from sentence:
+```
+>>> Syntax_Tree.getInfo("I ate an apple")
+'(S1(S(NP(PRP I))(VP(VBD ate)(NP(DT an)(NN apple)))))'
+>>> Syntax_Tree.getInfo("An apple was eaten by me")
+'(S1(S(NP(DT An)(NN apple))(VP(VBD was)(VP(VBN eaten)(PP(IN by)(NP(PRP me)))))))'
+```
