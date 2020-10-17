@@ -3,10 +3,13 @@
 Pipeline NLP is a toolkit to demo the different between syntatic information and semantic information. See attachment pdf to get more information.
 
 ## Functionality
-
+```
 SRL (Semantic Role Labeling)
+
 POS Tagging (Part of Speech Tagging) 
+
 Syntactic Parsing
+```
 
 ## What's New
 
