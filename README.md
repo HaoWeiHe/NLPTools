@@ -1,6 +1,19 @@
-Usage
+# NLPTools
 
-0. pip install -r requirements.txt
-1. run sh setup.sh
-2. syntactic anlysis:python demo.py parser "Your Query Here"
-3. dependency tree: python demo.py dependency "Your Query Here"
+NLPTools is a toolkit to demo the different between syntatic information and semantic information.
+
+## What's New
+
+### 1.2
+
+* Added `pos.POSTagger` class to get the result of pos tagging. 
+* Added `srl.SRLTagger` class to get the result of srl. 
+* Added `syntax.SyntaxTree` class to get the result of syntax. 
+* Reorganize every single function to moudle 
+* Remove  `stanfordcore` dependency. POS and Syntaxtree are performed using practNLPTools.
+* Remove  `requirments.txt` file. 
+* Remove  `demo.py` file. The functions in this file move to module - core.
+
+### 1.1
+
+*
