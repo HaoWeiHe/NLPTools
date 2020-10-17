@@ -38,7 +38,7 @@ Import module as first step
 >>> from core import *
 ```
 
-Predict POS(part-of-speech) tagging from sentence:
+predict POS(part-of-speech) tagging from sentence:
 
 ```
 >>> POSTagger.getInfo("how are you?")
