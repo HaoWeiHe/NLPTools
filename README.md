@@ -1,7 +1,7 @@
 # Pipeline NLP
 
 Pipeline NLP is a toolkit to demo the different between syntatic information and semantic information. See attachment - pdf file -
-to get more information or check out [my blog](https://medium.com/@haoweihohoho/brief-introduce-semantics-syntax-9b84174de947)
+to get more information or check out [my blog](https://medium.com/@haoweihohoho/brief-introduce-semantics-syntax-9b84174de947).
 
 ## Functionality
 ```
